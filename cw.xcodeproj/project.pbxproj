@@ -37,6 +37,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		632536E31F0F92A900D43C08 /* c_image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = c_image;
+			sourceTree = "<group>";
+		};
 		6326D7B81F087A8000448E52 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +67,7 @@
 				6326D7C61F087A8000448E52 /* ViewController.swift */,
 				632536E11F0F871A00D43C08 /* NextViewController.swift */,
 				6326D7C81F087A8000448E52 /* Main.storyboard */,
+				632536E31F0F92A900D43C08 /* c_image */,
 				6326D7CB1F087A8000448E52 /* Assets.xcassets */,
 				6326D7CD1F087A8000448E52 /* LaunchScreen.storyboard */,
 				6326D7D01F087A8000448E52 /* Info.plist */,
