@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FJ2-RX-F9b">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -32,33 +32,21 @@
                                 <rect key="frame" x="133" y="617" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="カウントアップ"/>
-                                <connections>
-                                    <action selector="plus" destination="BYZ-38-t0r" eventType="touchUpInside" id="LhL-Uk-ZRq"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKt-jj-hst">
                                 <rect key="frame" x="329" y="318" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="次"/>
-                                <connections>
-                                    <segue destination="792-TR-ckJ" kind="push" id="gpS-Yk-RlF"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0PX-S2-r1b">
                                 <rect key="frame" x="133" y="569" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="カウントクリア"/>
-                                <connections>
-                                    <action selector="clear" destination="BYZ-38-t0r" eventType="touchUpInside" id="uIu-ut-15W"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="WDA-qX-CPW"/>
-                    <connections>
-                        <outlet property="label" destination="QD0-XK-hIa" id="aep-1U-F4H"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -98,49 +86,20 @@
                                 <rect key="frame" x="229" y="541" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="次の写真を表示"/>
-                                <connections>
-                                    <action selector="nextImage" destination="792-TR-ckJ" eventType="touchUpInside" id="pdg-Dl-FkM"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEf-vM-8nR">
                                 <rect key="frame" x="157" y="617" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ランダム"/>
-                                <connections>
-                                    <action selector="randBtn" destination="792-TR-ckJ" eventType="touchUpInside" id="tuX-mm-MWe"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ahO-4n-laZ"/>
-                    <connections>
-                        <outlet property="imageView" destination="kjh-Fz-Z9h" id="qZq-Z4-OAM"/>
-                        <outlet property="randLabel" destination="gpd-Za-ODm" id="SNJ-n3-Jto"/>
-                        <outlet property="timerLabel" destination="gAJ-WW-3uW" id="nvT-eh-J3t"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hS7-8k-aPj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2786.4000000000001" y="37.331334332833585"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="13B-nd-qDb">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FJ2-RX-F9b" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="f0z-sL-psx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="TIr-5M-smt"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BFZ-9O-X0t" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1024.8" y="38.23088455772114"/>
         </scene>
     </scenes>
 </document>
