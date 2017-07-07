@@ -108,6 +108,9 @@
                                 <rect key="frame" x="16" y="28" width="77" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="前の画面へ"/>
+                                <connections>
+                                    <action selector="back" destination="792-TR-ckJ" eventType="touchUpInside" id="1rB-IU-c1D"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
