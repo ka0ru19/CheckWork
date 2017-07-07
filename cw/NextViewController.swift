@@ -9,6 +9,10 @@
 import UIKit
 
 class NextViewController: UIViewController {
+    
+    @IBOutlet weak var randomLabel: UILabel!
+    @IBOutlet weak var timerLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,6 +35,15 @@ class NextViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func next() {
+        
+    }
+    
+    @IBAction func random() {
+    }
+    
+    
     @IBAction func back() {
         self.dismiss(animated: true, completion: nil)
     }

@@ -98,11 +98,17 @@
                                 <rect key="frame" x="229" y="541" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="次の写真を表示"/>
+                                <connections>
+                                    <action selector="next" destination="792-TR-ckJ" eventType="touchUpInside" id="aFf-Bx-j1F"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEf-vM-8nR">
                                 <rect key="frame" x="157" y="617" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ランダム"/>
+                                <connections>
+                                    <action selector="random" destination="792-TR-ckJ" eventType="touchUpInside" id="SPJ-BN-DeW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTw-Tk-i5Q">
                                 <rect key="frame" x="16" y="28" width="77" height="30"/>
@@ -116,6 +122,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ahO-4n-laZ"/>
+                    <connections>
+                        <outlet property="imageView" destination="kjh-Fz-Z9h" id="QSs-Eb-VCE"/>
+                        <outlet property="randomLabel" destination="gpd-Za-ODm" id="Auq-H4-cCU"/>
+                        <outlet property="timerLabel" destination="gAJ-WW-3uW" id="AB1-zv-6ej"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hS7-8k-aPj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
