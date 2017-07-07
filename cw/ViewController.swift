@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var number : Int = 0
     @IBOutlet weak var label: UILabel!
     
     override func viewDidLoad() {
